@@ -3,7 +3,15 @@ The objective of this project is to implement Texture synthesis and Texture tran
 
 Texture_Synthesis
 ------------------
+In this algorithm. at first, a patch from the texture is chosen randomly. Then, based on SSD template matching, we search for the most suitable patch that can be placed near the previous patch. Also, in order to merge these two patches with each other, *Minimum Error Boundary Cut* is used that can be implemented via dynamic programming. The image below shows the big picture of this algorithm [1]:
 
+<p align="center">
+<img width = "500" src="https://user-images.githubusercontent.com/46090276/208299546-2fba1c74-9eb4-4c71-8769-f13703b866bb.JPG" alt="algo">
+</p>
+  
+**Note:** It worths mentioning that if we always choose the patch with minimum SSD, our synthesized texture will have a periodic structure which is not satisfactory. Hence, we try to pick the next patch randomly from a group of patches with the least SSD error. 
+
+Here are some of my results:
 
 Texture             |  Synthesized Texture
 :-------------------------:|:-------------------------:
