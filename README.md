@@ -12,8 +12,8 @@ Texture             |  Synthesized Texture
 <img width = "150" src="https://user-images.githubusercontent.com/46090276/208294594-fa412fb9-dc4e-4cca-8d0f-201660d02298.jpg" alt="texture">|<img width = "300" src="https://user-images.githubusercontent.com/46090276/208294598-fdb63d33-74c5-45d0-bf9c-cec535fa4a96.jpg" alt="synthesized_texture">
 
 
-# Image Quilting: Texture Transfer
-
+Texture Transfer
+---------------
 
 Source             |  Target |  Result
 :-------------------------:|:-------------------------:|:-------------------------:
